@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pysecutils"
+version = "1.0.0"
+authors = [
+  { name="Chetan Biranje", email="chetanbiranje@proton.me" },
+]
+description = "A comprehensive Python security utilities library for modern application security"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "cryptography>=41.0.0",
+]
