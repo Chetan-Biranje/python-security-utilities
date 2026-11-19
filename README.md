@@ -1,6 +1,6 @@
 # Python Security Utilities (PySecUtils)
 
-A robust, modular, and production-grade Python security utility library designed for secure application engineering, cryptographic operations, input validation, and DevSecOps pipelines.
+A modular Python library of small security helpers: AES-GCM encryption and password hashing, a JWT validator, input sanitizing, security headers, a rate limiter, a secrets manager and an audit logger. Written for learning and small projects. It has not had an independent security review, so check it before relying on it.
 
 ## Author
 **Chetan Biranje**  
