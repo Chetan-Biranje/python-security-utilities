@@ -31,5 +31,6 @@ pip install -e .
 ## Running Unit Tests
 
 ```bash
-python3 -m unittest discover tests/ -v
+pip install -e ".[test]"
+pytest -v
 ```
